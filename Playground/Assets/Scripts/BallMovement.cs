@@ -7,7 +7,7 @@ public class BallMovement : MonoBehaviour {
     [SerializeField]
     private GameObject dotPrefab;
 
-    public float force = 30;
+    public float force = 10f;
 
     private Transform m_transform;
     private Camera m_cam;
